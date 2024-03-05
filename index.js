@@ -74,7 +74,7 @@ kids.forEach((_) =>
         sign.innerText = "=";
         break;
       default:
-        if (number && number.innerText?.length < 15)
+        if (number && number.innerText?.length < 18)
           if (flag) {
             number.innerText = "";
             number.innerText = number.innerText + e.target.innerText;
